@@ -16,6 +16,23 @@ Hailin Modbus是一个Home Assistant自定义集成,用于连接和读取海林M
 
 ## 安装
 
+有两种方法可以安装此集成:
+
+### 方法1: 使用HACS (推荐)
+
+1. 确保您已经安装了[HACS](https://hacs.xyz/).
+2. 在HACS中,转到"集成"标签.
+3. 点击右上角的三个点,选择"自定义存储库".
+4. 在"存储库"字段中输入: `https://github.com/shuangyangyu/hailin_modbus`
+5. 在"类别"下拉菜单中选择"集成".
+6. 点击"添加".
+7. 关闭自定义存储库窗口.
+8. 点击"+ 浏览并下载存储库"按钮.
+9. 搜索"Hailin Modbus"并安装.
+10. 重启Home Assistant.
+
+### 方法2: 手动安装
+
 1. 将`hailin_modbus`文件夹复制到您的Home Assistant配置目录下的`custom_components`文件夹中。
 2. 重启Home Assistant。
 
